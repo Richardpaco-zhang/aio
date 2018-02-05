@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="aio_notify_anim" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/aio_notify_show</item>
+        <item name="@android:windowExitAnimation">@anim/aio_notify_hide</item>
+    </style>
+
+
+</resources>

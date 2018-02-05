@@ -1,0 +1,16 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //implementation project(':aio-kotlin-annotation')
+    implementation 'rd.zhang:aio-kotlin-annotation:0.5.0.2'
+    implementation 'com.google.auto.service:auto-service:1.0-rc3'
+    implementation 'com.squareup:javapoet:1.9.0'
+    implementation 'com.google.auto:auto-common:0.8'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+}
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"

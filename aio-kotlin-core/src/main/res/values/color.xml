@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notify_info">#38393E</color>
+    <color name="notify_warn">#ffb028</color>
+    <color name="notify_error">#f44d3a</color>
+    <color name="notify_success">#538EEB</color>
+    <color name="notify_white">#ffffff</color>
+</resources>
